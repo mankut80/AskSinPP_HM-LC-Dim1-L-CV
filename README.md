@@ -1,15 +1,3 @@
-```
----
-isProject: true
-Desc: Dimmer Phasenanschnitt 1-Kanal
-ProjectUrl: https://maschmid.next-cloud.org/index.php/s/7gZ2EqyjfMeqoK9
-Author: mankut
-AuthorUrl: 
-Tags: 230V, Aktor, Dimmer
-Thumb: images/thumb.jpg
----
-```
-
 # HM-LC-DIM1L-CV
 
 ## 230V Dimmeraktor (Phasenanschnitt)
