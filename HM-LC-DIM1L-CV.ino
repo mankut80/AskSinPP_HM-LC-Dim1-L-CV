@@ -37,7 +37,6 @@
 #define PEERS_PER_DimChannel     4
 #define PEERS_PER_RemoteChannel  8
 
-#include <Arduino.h>
 #include <Wire.h>
 #include <EnableInterrupt.h>
 #include <AskSinPP.h>
