@@ -118,3 +118,19 @@ PWM.h, Zeile 86:
 #if PHASECUTMODE == 1    
   uint8_t offset = (STEPS - value)*49/STEPS;
 ```
+
+Außerdem noch diese Änderung:
+PhaseCut.h, Zeilen 10-16: 
+Die Definitionen für PHASECUTMODE und ZEROPIN müssen abgeändert werden. Diese werden seltsamerweise nicht aus dem *.ino-File übernommen (vielen Dank an ivo-int für die Nachreichung dieser Information):
+
+```
+#ifndef PHASECUTMODE
+#define PHASECUTMODE 1
+#endif 
+
+#ifndef ZEROPIN
+#define ZEROPIN 3
+#endif
+```
+
+
