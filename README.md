@@ -103,6 +103,10 @@ PhaseCut.cpp, Zeile 130:
 ```
 if (_timer < 76 ) digitalWrite(OUTPUT_PIN, HIGH);
 ```
+PhaseCut.cpp, Zeile 113, korrigieren des Setzens der Bits von Register TCCR2B (ist eher kosmetischer Natur):
+```
+TCCR2B |= (1 << CS20) | (1 << CS21) | (1 << CS22) ;
+```
 
 PWM.h, Zeile 25:
 
